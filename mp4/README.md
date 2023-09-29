@@ -1,1 +1,1 @@
-Video
+<a href="https://cdn.jsdelivr.net/gh/samuelpasaribu/anonymous/mp4/SEMOGA, YA - ft. Sandrayati Fay (Live Session).mp4">https://cdn.jsdelivr.net/gh/samuelpasaribu/anonymous/mp3/SEMOGA, YA - ft. Sandrayati Fay (Live Session).mp4</a>
