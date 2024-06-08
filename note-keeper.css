@@ -1,0 +1,87 @@
+input[type=radio] {
+    height: 40px;
+    width: 40px
+}
+
+#cyan,
+.dark-mode-switcher span {
+    background-color: #1c8bf2
+}
+
+#orange {
+    background-color: #ee5e44
+}
+
+#green {
+    background-color: #2ead0b
+}
+
+#purple {
+    background-color: #740bad
+}
+
+fieldset {
+    overflow: hidden;
+    position: relative
+}
+
+a.fork-me {
+    top: 0
+}
+
+a.fork-me i {
+    font-size: 40px;
+    position: relative;
+    right: 7px;
+    transition: 250ms linear
+}
+
+a.fork-me::before {
+    content: "";
+    background-color: #161616b2;
+    width: 100px;
+    height: 150px;
+    transform: skewY(45deg);
+    top: -100px;
+    transition: 250ms linear
+}
+
+a.fork-me:hover i {
+    color: #1c8bf2
+}
+
+h1 {
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 24px;
+    text-align: center;
+    font-family: monospace
+}
+
+.py-5 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important
+}
+
+.row {
+    --bs-gutter-x: initial !important;
+    --bs-gutter-y: initial !important;
+    display: block !important;
+    flex-wrap: nowrap !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important
+}
+
+.col-3 {
+    flex: initial !important;
+    width: 100%
+}
+
+@media only screen and (max-width:1024px) {
+    .footer-toggle {
+        top: 11px;
+        cursor: pointer;
+        left: 300px
+    }
+}
